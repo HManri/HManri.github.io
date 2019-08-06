@@ -1,0 +1,125 @@
+@media (min-width: 768px) {
+    .menu .menu-bar {
+		float: right;
+        /*margin-right: 200px;*/
+	}
+    
+    .navbar-inverse .navbar-nav > li > a:hover {
+        border-bottom: 2px solid #080808;
+        color: #EEEEEE;
+    }
+    
+    .navbar-inverse .navbar-nav > li > a.current {
+        border-bottom: 2px solid #080808;
+    }
+    
+    .navbar-nav > li {
+        margin-left: 1em;
+    }
+    
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 1.5em;
+    }
+    
+    .dropdown-menu {
+        right: 0;
+        left: auto;
+        background-color: #E39031;
+        font-size: 1em;
+    }
+    /** MAIN **/
+    .main-title {
+        margin: 0;
+        padding: 5em 0;
+    }
+    
+    .main-skills {
+        /*padding: 5em 0;*/
+    }
+    
+    .main-experience {
+        /*padding: 5em 0;*/
+    }
+    
+    .main-studies {
+        /*padding: 5em 0;*/
+    }
+    
+    .content-container {
+        height: 30em;
+    }
+
+    .content-container .title {
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    .content-container .description {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+    
+    .content-container .description.english-level {
+        font-weight: 600;
+    }
+
+    .content-container .date {
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+    
+    .experience-title, .skills-title, .studies-title {
+        margin: 2em 0;
+        border-bottom: 1px solid #E39031;
+    }
+
+    .experience-title i, .skills-title i, .studies-title i {
+        color: #E39031;
+    }
+
+    .experience-title span, .skills-title span, .studies-title span {
+        font-size: 2em;
+        font-weight: 600;
+        margin-left: 2em;
+    }
+    
+    .skill {
+        display: block;
+        font-size: 1.8em;
+        font-weight: 500;
+        margin: 1.5em 0;
+        cursor: pointer;
+    }
+    /** END MAIN **/
+    
+    /** ACADEMIC PROJECTS **/
+    .project {
+        padding: 4em 0 0 0;
+        font-size: 1.2em;
+    }
+    
+    .academic_project_title {
+        border-bottom: 1px solid #E39031;
+        margin: 2em 0;
+    }
+    
+    .academic_project_title i {
+        color: #E39031;
+    }
+    
+    .list-group-item i.icon {
+        /*font-size: 24px;*/
+    }
+    
+    .academic_project_title span {
+        font-size: 2em;
+        font-weight: 500;
+        margin-left: 2em;
+        /*display: inline-block;*/
+    }
+    
+    .panel-brand {
+       margin-bottom: 20px;
+    }
+    /** END ACADEMIC PROJECTS **/
+}
