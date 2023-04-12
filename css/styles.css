@@ -1,145 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,500italic);
 h1, h2, h3, h4, h5, h6, th, dt, strong, label, badge {
-        font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 }
+
 body {
-        font-family: 'Roboto', sans-serif;        
+    font-family: 'Roboto', sans-serif;        
 	font-weight: 300;
 	font-size: 1.5em;
 }
 
-/*p, span, a {
-    font-size: 1.2em;
-}*/
-
 /** CUSTOM BOOTSTRAP **/
-.navbar-inverse {
-    background-color: #E39031;
-    border-color: #DC831E;
-}
-
-.navbar-inverse .navbar-brand {
-    color: #FFFFFF;
-    font-style: italic;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
-    font-size: 1.5em;
-}
-
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
-    color: #EEEEEE;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-    color: #FFFFFF;
-    border-bottom: 2px solid #E39031;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
-    /*font-size: 1.5em;*/
-}
-
-.navbar-inverse .navbar-toggle {
-    border-color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-toggle:focus {
-    background-color: #E39031;
-}
-
-.navbar-inverse .navbar-toggle:hover {
-    background-color: #DC831E;
-}
-
-.navbar-inverse .navbar-toggle .icon-bar {
-}
-
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #DC831E;
-    color: #EEEEEE;
-    border-bottom: 2px solid #080808;
-}
-
-.dropdown-menu > li > a {
-    font-size: 1.2em;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
-    color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #FFFFFF;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
-    color: #EEEEEE;
-}
-
-.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-    background-color: #E39031;
-    color: #EEEEEE;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #FFFFFF;
-    height: 0.1em;
-}
-
-.btn-custom-white {
-	background-color: #EEE;
-	color: #222;
-	font-weight: 600;
-}
-
-.btn-custom-white:hover {
-	background-color: #2DADE4;
-	color: #222;
-	font-weight: 600;
-}
-
-.btn-custom-white:active {
-	background-color: #1C9CD3;
-}
-
-.icon-orange {
-    color: #E39031;
-}
-
-.img-100 {
-    max-width: 100px;
-}
-
-.img-150 {
-	max-width: 150px;
-}
-
-.img-200 {
-	max-width: 200px;
-}
-
-.img-300 {
-	max-width: 300px;
-}
-
-.img-350 {
-	max-width: 350px;
-}
-
-.img-450 {
-	max-width: 450px;
-}
-
-.img-550 {
-    max-width: 550px;
-}
-
-.img-height-300 {
-    max-height: 300px;
-}
-
 .fa-1-5x {
     font-size: 1.5em;
-}
-
-.block {
-    display: block;
 }
 
 .center-text {
@@ -149,141 +22,85 @@ body {
 .center-img {
     margin: 0 auto;
 }
-
-.panel-hm {
-    border-color: #DC831E;
-    font-size: 0.9em;
-}
-
-.panel-hm > .panel-heading {
-    background-color: #E39031;
-    border-color: #DC831E;
-    color: #FFFFFF;
-}
-
-.panel-hm > .panel-heading .panel-title {
-    font-size: 1.1em;
-    font-weight: 600;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
-}
-
-.panel-hm > .panel-body {
-    font-size: 1em;
-}
-
-.panel-brand img {
-    margin: 0 auto;
-}
-
-.technologies-icons .fa {
-    margin: 0.25em 0.5em;
-}
-
-blockquote {
-    font-size: 1em;
-}
 /** END CUSTOM BOOTSTRAP **/
 
-/** MENU **/
-.menu {
-    width: auto;
-    font-weight: 800;
-}
-/** END MENU **/
-
 /** MAIN **/
+#about {
+    margin: 0;
+    padding: 2em 0 0;
+}
+
+#about img {
+    max-height: 300px;
+}
+
 .content-container {
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #E39031;
-    display: table;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
     margin: 1em 0;
+    border-radius: 8px;
+    border: 1px solid #E39031;
     -webkit-box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
 }
 
 .content-container .content {
-    display: table-cell;
-    vertical-align: middle;
+    text-align: center;
 }
 
-.content-container .content img {
+.content-container .content .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.content-container .content .image a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    height: 200px;
+}
+
+.content-container .content .image a img {
     margin: 10px 0;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.main-skills {
-}
-
-.skill:first-child {
-    margin-top: 0;
-}
-
-.skill .skill-text:hover {
-    color: #888888;
-}
-
-.skill .skill-text.selected {
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin: 2em 0;
     border-bottom: 1px solid #E39031;
-    color: #444444;
-    text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.3);
 }
 
-.skill .fa {
-    margin-left: 1em;
+.section-title i {
+    font-size: 3em;
+    color: #E39031;
 }
 
-.skill-container {
-    border: 1px solid #e39031;
-    border-radius: 5px;
-    padding: 2em;
-    -webkit-box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
-    box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
-    position:relative;
-    overflow-x: hidden;
-}
-
-.skill-container .skill-img img {
-    margin: 0 auto;
-}
-
-.skill-container .skill-img:not(:first-child) {
-    display: none;
-}
-
-.skill-container .skill-img img:not(:first-child) {
-    margin-top: 3em;
-}
-
-.skill-img {
-    position: relative;
+.section-title span {
+    font-size: 1.5em;
+    font-weight: 600;
 }
 /** END MAIN **/
-
-/** PROJECTS **/
-.video {
-    padding-left: 0;
-    padding-right: 0;
-}
-/** END PROJECTS **/
 
 /** FOOTER **/
 .footer {
     margin-top: 5em;
 }
 
-.credits {
-	text-align: center;
-    font-size: 1.2em;
-}
-
 .social {
 	list-style: none;
-	/*text-align: center;*/
-	margin: 2em 0;
+	margin: 0.5em 0;
 	padding: 0;
 }
 
@@ -348,9 +165,3 @@ blockquote {
     background-color: rgba(277, 144, 49, 0.2);
 }
 /** END FOOTER **/
-
-/*@media only screen and (min-width : 768px) {
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
-}*/
